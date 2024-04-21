@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.699);
+    text-align: center;
+    margin: 5px;
+}
+
+.col-2 {
+    flex: 2;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.699);
+    margin: 5px;
+}
+
+.col-3 {
+    flex: 3;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.699);
+    margin: 5px;
+}
+
+  
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: #007bff;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.user {
+    width: 500px;
+    background-color:  white(20, 226, 216);
+
+    border-radius: 1px;
+    padding: 0px;
+    border: 2px solid rgb(20, 226, 216); 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 2px 4px 8px rgb(20, 226, 216);
+
+}
+
+.user-header {
+    height: 50px;
+    background-color: rgb(20, 226, 216); /* Verde azulado */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.user-profile {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: -30px;
+    left: 7%;
+    transform: translateX(-50%);
+    
+}
+
+.user-info {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.user-name {
+    margin-bottom: 0px;
+}
+
+
+.user-role {
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.user-description {
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+
+
+.action-icon {
+    width: 15px;
+    height: 20px;
+    margin: 0 10px;
+    
+}
+.linea {
+    display: flex;
+    align-items: center;
+}
+.edit {
+    text-decoration: underline; 
+    color: rgb(110, 110, 255); 
+}
+/* */
+.contenedor-h1 {
+    background-color: black;
+   
+}
+.contenedor-h2 {
+    background-color: rgb(150, 10, 150);
+}
+.contenedor-h3 {
+    background-color: aqua;
+}
+h1 {
+    margin-bottom: 0;
+    text-align: left;
+    color: aquamarine;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+h1 .mycloud {
+    color: white;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    transform: skewX(-5deg);
+    
+}
+
+h3 {
+    margin-top: 5px;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+/**/
+.button-container {
+    margin-bottom: 10px;
+  }
+  
+  .search-button {
+    border: 2px solid #5983dd;
+    border-radius: 20px;
+    height: 40px;
+    width: 170px;
+    font-size: large;
+    color: #5983dd
+  }
+  
+  .circle-button {
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(3, 238, 187);
+    color: #fff;
+    font-size: 24px;
+   
+  }
+  
+  .account-button {
+    border: 2px solid #000;
+    height: 40px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    box-shadow: 6px 6px 10px black
+  }
+  /**/
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; 
+    background-color: rgb(163, 162, 162);
+}
+
+.bloque {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.octocat {
+    height: 150px; 
+    margin: 10px;
+    
+}
+.superior{
+    background-color: rgb(255, 63, 63);
+}
+.intermedio{
+    background-color: wheat;
+}
+.inferior{
+    background-color: rgb(67, 67, 255);
+}
+
+/***/
